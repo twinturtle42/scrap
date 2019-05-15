@@ -29,8 +29,8 @@ Solve the following challenges with your workshop buddy (pair programming).
 | Challenge4| Bonus |
 | ------ | ------ |
 | 1 | Try to save all the names in your csv by starting the line with their number. Example:
-1, Florence
-2, Harrison Malone
+|   |   1, Florence
+|   |   2, Harrison Malone
 | 2 | Scrap the number of group’s members and organisers.
 
 
