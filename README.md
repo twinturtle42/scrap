@@ -128,7 +128,7 @@ Getting Data from an API
 require 'json'
 require 'open-uri'
 
-url = 'https://api.github.com/users/ssaunier'
+url = 'https://api.github.com/users/twinturtle42'
 user_serialized = open(url).read
 user = JSON.parse(user_serialized)
 
