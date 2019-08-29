@@ -165,3 +165,10 @@ html_doc.search('.m_titre_resultat a').each do |element|
 end
 ```
 
+Links: 
+
+```
+  - https://nokogiri.org/rdoc/Nokogiri/HTML.html
+  - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+  - http://ruby.bastardsbook.com/chapters/html-parsing/
+```
