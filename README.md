@@ -104,6 +104,8 @@ Storing CSV
 ```
 require 'json'
 
+filepath = 'beers.json'
+
 beers = { beers: [
   {
     name:       'Edelweiss',
