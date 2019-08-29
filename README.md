@@ -62,7 +62,7 @@ CSV.foreach(filepath, csv_options) do |row|
 end
 
 ```
-Try parsing a CSV file containing this and print it to your screen
+Try parsing the CSV of this repository and print it to your screen
 
 beers =
 [
