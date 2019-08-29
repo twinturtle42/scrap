@@ -84,7 +84,10 @@ CSV.open(filepath, 'wb', csv_options) do |csv|
   csv << ['Name', 'Appearance', 'Origin']
   csv << ['Asahi', 'Pale Lager', 'Japan']
   csv << ['Guinness', 'Stout', 'Ireland']
-  # ...
+  csv << ["Asahi", "Pale Lager", "Japan"]
+  csv << ["Guinness", "Stout", "Ireland"]
+  csv << ["Choulette Ambrée", "Amber", "France"]
+  csv << ["Gulden Draak", "Dark", "Belgium"]
 end
 ```
 
