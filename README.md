@@ -143,7 +143,7 @@ url = 'https://api.github.com/users/twinturtle42'
 user_serialized = open(url).read
 user = JSON.parse(user_serialized)
 
-puts "#{user['name']} - #{user['bio']}"
+puts "#{user['login']} #{user['name']} - #{user['bio']}"
 ```
 
 Try this before scraping Meetup
@@ -153,7 +153,7 @@ require 'open-uri'
 require 'nokogiri'
 
 ingredient = 'chocolate'
-url = "http://www.letscookfrench.com/recipes/find-recipe.aspx?s=#{chocolate}"
+url = "http://www.letscookfrench.com/recipes/find-recipe.aspx?s=#{ingredient}"
 
 html_file = open(url).read
 html_doc = Nokogiri::HTML(html_file)
