@@ -167,8 +167,6 @@ end
 
 Links: 
 
-```
-  - https://nokogiri.org/rdoc/Nokogiri/HTML.html
-  - https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
-  - http://ruby.bastardsbook.com/chapters/html-parsing/
-```
+https://nokogiri.org/rdoc/Nokogiri/HTML.html
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+http://ruby.bastardsbook.com/chapters/html-parsing/
