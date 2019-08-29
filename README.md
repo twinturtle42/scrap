@@ -115,7 +115,16 @@ beers = { beers: [
     appearance: 'Stout',
     origin:     'Ireland'
   },
-  # etc...
+  {
+    "name": "Choulette Ambrée",
+    "appearance": "Amber",
+    "origin": "France"
+  },
+  {
+    "name": "Gulden Draak",
+    "appearance": "Dark",
+    "origin": "Belgium"
+  }
 ]}
 
 File.open(filepath, 'wb') do |file|
